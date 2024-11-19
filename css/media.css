@@ -1,0 +1,160 @@
+/* Tablet */
+@media screen and (min-width: 768px) {
+    .header {
+        margin-bottom: 268px;
+    }
+
+    .header__nav {
+        display: block;
+        width: 100%;
+        max-width: 624px;
+    }
+
+    .header__button-menu-open {
+        display: none;
+    }
+
+    .hero__container {
+        flex-basis: 563px;
+    }
+
+    .hero__form {
+        flex-wrap: nowrap;
+    }
+
+    .hero__heading {
+        font-size: 50px;
+    }
+
+    .hero__text {
+        font-size: 18px;
+    }
+
+    .container {
+        padding-inline: 0;
+    }
+
+    .container__wide {
+        padding-inline: 60px;
+    }
+
+    .section__team-title {
+        font-size: 50px;
+    }
+
+    .section__team-container {
+        margin-bottom: 180px;
+        flex-wrap: wrap-reverse;
+    }
+
+    .section__worker-container {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .section__worker-img-container {
+        flex: 1;
+    }
+
+    .section__worker-wrapper {
+        flex: 1;
+    }
+
+    .section__app-container {
+        justify-content: space-between;
+        flex-direction: row;
+    }
+
+    .footer__container-menu {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        column-gap: 64px;
+        padding-top: 0;
+        row-gap: 48px;
+    }
+
+    .footer__features {
+        padding-bottom: 0;
+    }
+
+    .footer__features:last-child {
+        flex-basis: 100%;
+    }
+
+    .footer__logo-wrapper {
+        margin-bottom: 48px;
+    }
+
+    .footer__inner-container {
+        padding-left: 40px;
+    }
+
+    .footer__form {
+        display: inline-block;
+    }
+
+}
+
+/* Desktop */
+@media screen and (min-width: 960px) {
+    .header__hero {
+        margin-bottom: 160px;
+    }
+
+    .header {
+        margin-bottom: 160px;
+    }
+
+    .section__team-container {
+        flex-direction: row;
+        margin-bottom: 0;
+        flex-wrap: nowrap;
+        margin-bottom: 58px;
+    }
+
+    .container {
+        padding-inline: 60px;
+    }
+
+    .section__worker-img-container {
+        flex: none;
+    }
+
+    .section__worker-wrapper {
+        flex: none;
+    }
+
+    .section__worker {
+        margin-bottom: 120px;
+    }
+
+    .section__app {
+        margin-bottom: 120px;
+    }
+
+    .footer__features:last-child {
+        flex-basis: auto;
+    }
+
+    .footer__container-menu {
+        flex-wrap: nowrap;
+        flex: 1;
+        max-width: 808px;
+        display: flex;
+        justify-content: space-between;
+        color: var(--off-white);
+        padding-top: 16px;
+    }
+
+    .footer__container {
+        column-gap: 20px;
+        flex-direction: row;
+        margin-bottom: 206px;
+    }
+
+    .footer__logo-wrapper {
+        margin-bottom: 0;
+    }
+
+}
