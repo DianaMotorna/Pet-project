@@ -379,9 +379,9 @@ svg {
 }
 
 .footer__form-input-container {
-    display: inline-block;
     display: flex;
     position: relative;
+    display: inline-block;
 }
 
 .footer__form-input-container::after {
