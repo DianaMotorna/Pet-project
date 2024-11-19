@@ -123,7 +123,7 @@ svg {
 }
 
 .header__hero {
-    background-image: url(/images/hero.jpeg);
+    background-image: url(../images/hero.jpeg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
