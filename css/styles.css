@@ -173,7 +173,7 @@ svg {
 .hero__form-input-container::after {
     content: "";
     display: block;
-    background: url(/images/arrow-forward-svg.svg);
+    background: url(../images/arrow-forward-svg.svg);
     height: 16px;
     width: 16px;
     position: absolute;
@@ -386,7 +386,7 @@ svg {
 .footer__form-input-container::after {
     content: "";
     display: block;
-    background: url(/images/arrow-forward-svg.svg);
+    background: url(../images/arrow-forward-svg.svg);
     height: 16px;
     width: 16px;
     position: absolute;
@@ -400,3 +400,8 @@ svg {
     line-height: 1.2;
     color: var(--off-white);
 }
+
+::placeholder {
+    color: var(--soft-blue);
+    opacity: 1; /* Firefox */
+  }
